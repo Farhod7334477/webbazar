@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Bosh sahifa",
+    "shop": "Mahsulotlar",
+    "con": "Aloqa",
+    "lang": "Til",
+    "btn": "Qidirmoq",
+    "search": "Qidiruv"
+  },
+  "main": {
+    "home": "Kerakli mahsulotni tez va qulay sotib oling!",
+    "buy": "Sotib olish",
+    "category": "Sara toifalar",
+    "all": "Hammasini ko'rsatish",
+    "num": "  ta mahsulot",
+    "trending": "Ommabop mahsulotlar",
+    "top": "Sara",
+    "new": "Yangi mahsulotlar",
+    "yangi": "Yangi"
+  },
+  "footer": {
+    "dev": "Dasturchilar",
+    "fdev": "Frontend Dasturchi",
+    "bdev": "Backend Dasturchi",
+    "contact": "Biz bilan bog'lanish",
+    "send": "Jo'natish"
+  },
+  "cart": {
+    "title": "Xarid savati",
+    "empty": "Xarid savataingiz bo'sh, asosiy sahifaga o'tib kerakli mahsulotni tanlang va ",
+    "btn": "sotib oling!",
+    "sub": "Jami:",
+    "buy": "Xarid qilish",
+    "nobuy": "Bekor qilish",
+    "remove": "O'chirish",
+    "add": "Savatga qo'shish"
+  }
+}

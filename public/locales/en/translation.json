@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "home": "Home",
+    "shop": "Products",
+    "con": "Contact",
+    "lang": "Language",
+    "btn": "Search",
+    "search": "Search"
+  },
+  "main": {
+    "home": "Buy the product you want quickly and easily!",
+    "buy": "Buy now",
+    "category": "Top category",
+    "all": "Show all",
+    "num": "  items",
+    "trending": "Trending products",
+    "top": "Top",
+    "new": "New products",
+    "yangi": "New"
+  },
+  "footer": {
+    "dev": "Developers",
+    "fdev": "Frontend Developer",
+    "bdev": "Backend Developer",
+    "contact": "Contact us",
+    "send": "Submit"
+  },
+  "cart": {
+    "title": "Your shopping cart",
+    "empty": "Your cart is empty, go to the main page, select the desired product and ",
+    "btn": "buy!",
+    "sub": "Subtotal:",
+    "buy": "Shopping",
+    "nobuy": "Cancel",
+    "remove": "Remove",
+    "add": "Add Cart"
+  }
+}

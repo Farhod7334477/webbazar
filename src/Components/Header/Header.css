@@ -1,0 +1,171 @@
+.nav_infos {
+  padding: 4px 0 6px;
+  text-align: center !important;
+}
+
+.MuiInput-underline:before {
+  bottom: 5px !important;
+}
+
+.MuiInput-underline:after {
+  bottom: 5px !important;
+}
+
+.MuiInputBase-input {
+  padding-bottom: 10px !important;
+  padding-right: 10px !important;
+}
+
+.anime_fath {
+  position: relative;
+}
+
+.anime_nav {
+  background-color: #343a40;
+  position: absolute;
+  top: 0;
+  left: -210px;
+  border-radius: 10px;
+  padding: 10px !important;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.anime_fath:hover .anime_nav {
+  -webkit-transform: scale(1) translate(90px, 70px);
+  transform: scale(1) translate(90px, 70px);
+}
+
+@media (max-width: 991px) {
+  .anime_nav {
+    left: 0px;
+    top: -70px;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  .anime_fath:hover .anime_nav {
+    -webkit-transform: scale(1) translate(150px, 10px);
+    transform: scale(1) translate(150px, 10px);
+  }
+  .anime_nav .nav-link {
+    padding: 4px !important;
+  }
+}
+
+.navbarDehqonscrool {
+  -webkit-backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
+  background-color: rgba(72, 72, 72, 0.2) !important;
+}
+
+.dropdown-menu,
+.left-border {
+  border-top: 3px solid #00a65a !important;
+}
+
+.dropdown-item {
+  padding: 4px 10px !important;
+  font-size: small;
+}
+
+.site-logo {
+  max-height: 70px;
+}
+
+.header_link {
+  font-weight: bold;
+  margin: 0 10px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  border-radius: 10px;
+}
+
+.header_link:hover {
+  color: black;
+}
+
+.header_active {
+  text-shadow: 3px 3px 3px #00000075;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.account {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 7px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.cart {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 7px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: #000000d4;
+}
+
+.search {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.cart:hover,
+.account:hover,
+.search:hover {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.icons {
+  text-align: right;
+  padding-top: 6px;
+}
+
+.showSearch {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  height: 100%;
+}
+
+.hiddenSearch {
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 1s ease;
+  transition: all 1s ease;
+  height: 0;
+}
+
+.transition {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 991px) {
+  .fixedCart {
+    position: fixed;
+    top: 22px;
+    right: 28%;
+  }
+  .fixedCart .cart {
+    color: black;
+    background-color: #77777791;
+    border-radius: 50%;
+    padding: 10px;
+  }
+}
