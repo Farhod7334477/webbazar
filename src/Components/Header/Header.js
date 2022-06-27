@@ -121,7 +121,7 @@ function Header({ totalItem, handleClickInp, handleChange }) {
               <Nav.Link
                 as={NavLink}
                 to="/"
-                className={pathName == '/' ? 'header_active' : 'header_link'}
+                className={pathName === '/' ? 'header_active' : 'header_link'}
               >
                 {t('nav.home')}
               </Nav.Link>
@@ -130,7 +130,7 @@ function Header({ totalItem, handleClickInp, handleChange }) {
                 as={NavLink}
                 to="/shop"
                 className={
-                  pathName == '/shop'
+                  pathName === '/shop'
                     ? 'header_active anime_fath'
                     : 'header_link anime_fath'
                 }
@@ -143,7 +143,7 @@ function Header({ totalItem, handleClickInp, handleChange }) {
               <Nav.Link
                 href="#footer"
                 className={
-                  pathName == '/contact' ? 'header_active' : 'header_link'
+                  pathName === '/contact' ? 'header_active' : 'header_link'
                 }
               >
                 {t('nav.con')}

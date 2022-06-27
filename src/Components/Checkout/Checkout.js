@@ -14,7 +14,7 @@ const Checkout = () => {
     <div>Confirmation</div>;
   };
 
-  const Form = () => (activeStep == 0 ? <AddresForm /> : <PaymentForm />);
+  const Form = () => (activeStep === 0 ? <AddresForm /> : <PaymentForm />);
 
   return (
     <>
@@ -42,7 +42,7 @@ const Checkout = () => {
               ))}
             </Stepper>
 
-            {activeStep == steps.length ? <Confirmation /> : <Form />}
+            {activeStep === steps.length ? <Confirmation /> : <Form />}
           </Grid>
         </Grid>
       </Container>
