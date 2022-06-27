@@ -10,7 +10,7 @@ function Shop({ products, addCart, category }) {
 
   const bosildi = (id) => {
     const FilterProduct = products.filter(
-      (i) => i.categories.filter((e) => e.id == id).length > 0
+      (i) => i.categories.filter((e) => e.id === id).length > 0
     );
     setFilterP(FilterProduct);
   };
